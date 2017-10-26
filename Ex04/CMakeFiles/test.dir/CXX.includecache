@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liying/桌面/C++TrainingTask/Ex04/Polynomial.cpp
+iostream
+-
+Polynomial.h
+/home/liying/桌面/C++TrainingTask/Ex04/Polynomial.h
+list
+-
+vector
+-
+cassert
+-
+string
+-
+fstream
+-
+
+/home/liying/桌面/C++TrainingTask/Ex04/Polynomial.h
+iostream
+-
+list
+-
+vector
+-
+
+/home/liying/桌面/C++TrainingTask/Ex04/test.cpp
+Polynomial.h
+/home/liying/桌面/C++TrainingTask/Ex04/Polynomial.h
+

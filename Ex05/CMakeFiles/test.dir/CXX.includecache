@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liying/桌面/未命名文件夹/Ex05/CPolynomial.cpp
+iostream
+-
+CPolynomial.h
+/home/liying/桌面/未命名文件夹/Ex05/CPolynomial.h
+list
+-
+vector
+-
+cassert
+-
+string
+-
+fstream
+-
+
+/home/liying/桌面/未命名文件夹/Ex05/CPolynomial.h
+list
+-
+vector
+-
+iostream
+-
+map
+-
+
+/home/liying/桌面/未命名文件夹/Ex05/main.cpp
+CPolynomial.h
+/home/liying/桌面/未命名文件夹/Ex05/CPolynomial.h
+

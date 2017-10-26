@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ex_01.h
+
+/home/liying/桌面/Ex01/lib/ex_01.cpp
+iostream
+-
+assert.h
+-
+ex_01.h
+/home/liying/桌面/Ex01/lib/ex_01.h
+
