@@ -1,0 +1,12 @@
+生成静态库：
+g++ -c myAPI.cpp  //编译
+ar crv libmyAPI.a myAPI.o  //生成静态库
+g++ main.cpp libmyAPI.a -o output  //连接
+
+
+
+生成动态库：  
+g++ -shared -fPIC -o libmyAPI.so myAPI.o  //直接得到libmyAPI.so
+g++ main.cpp -L. -lmyAPI -o output   //-l+动态库的名字
+LD_LIBRARY_PATH=. ./a.out
+
